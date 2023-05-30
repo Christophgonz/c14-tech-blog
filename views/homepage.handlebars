@@ -1,3 +1,10 @@
-<h1>
-    Hello
-</h1>
+{{#each posts as |post|}}
+<h2>
+{{post.title}}
+</h2>
+<p>
+{{post.body}}
+
+</p>
+-{{post.user.name}}
+{{/each}}
