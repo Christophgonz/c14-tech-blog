@@ -5,3 +5,4 @@ router.get("/", async (req, res) => {
     res.render("homepage");
   } catch {}
 });
+module.exports = router;
