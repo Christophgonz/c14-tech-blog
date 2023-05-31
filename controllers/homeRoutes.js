@@ -43,4 +43,8 @@ router.get("/login", (req, res) => {
   res.render("login");
 });
 
+router.get("/dashboard/create-post", withAuth, async (req, res) => {
+  res.render("post-create");
+});
+
 module.exports = router;
