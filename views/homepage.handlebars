@@ -6,5 +6,7 @@
 {{post.body}}
 
 </p>
--{{post.user.name}}
+<h4>
+    Posted by {{post.user.name}} on {{format_date post.date_created}}
+</h4>
 {{/each}}
